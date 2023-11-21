@@ -68,7 +68,7 @@ class PyTgCallsSession:
             '__version__ = \'(.*?)\'', (
                 await get_async(
                     f'https://raw.githubusercontent.com/'
-                    f'pytgcalls/pytgcalls/{branch}'
+                    f'Asaaq-ali/pytgcalls/{branch}'
                     f'/pytgcalls/__version__.py',
                 )
             ),
